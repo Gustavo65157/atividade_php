@@ -25,7 +25,7 @@ class Circulo extends Forma{
     }
 
     public function area(){
-        return pi() * pow(%this->raio, 2);
+        return pi() * pow($this->raio, 2);
     }
 }
 
